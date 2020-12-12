@@ -5,7 +5,7 @@ High variability and dropout rate inherent in scRNA-seq confounds the reliable q
 
 scLAPA mainly consists of four modules (Figure S1): (i) the input module, (ii) cell-cell distance, (iii) distance fusion, (iv) cell type clustering. The input module prepares the input for scLAPA, including a poly(A) site expression matrix (hereinafter referred as PA-matrix) and a gene expression matrix (hereinafter referred as GE-matrix).  In the module of cell-cell distance, a cell-cell distance matrix is learned for PA-matrix (called PA-dist) and GE-matrix (called GE-dist), respectively. The module of distance fusion employs similarity network fusion (SNF)  to integrate the two distance matrices (PA-dist and GE-dist) into one cell-cell distance matrix. The cell type clustering module clusters cells based on the fused distance matrix with various clustering methods.
 
-![image](https://github.com/BMILAB/scLAPA/blob/main/imgs/scLAPA_pipeline.png)
+![image](https://github.com/BMILAB/scLAPA/blob/main/img/scLAPA_pipeline.png)
 
 # Installing scLAPA
 ## Mandatory
