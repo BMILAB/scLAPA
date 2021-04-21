@@ -8,9 +8,10 @@
 #'
 #' @examples PAtoRUD(data)
 PAtoRUD<-function(data){
-  APAratio = movPAindex(APA, method='ratio')
-  APARUD <- APAratio[rownames(filterPD(APA,type = -1)),]
+  APAratio = movPAindex(data, method='ratio')
+  APARUD <- APAratio[rownames(filterPD(data,type = -1)),]
   rownames(APARUD) <- gsub(":.*","",rownames(APARUD))
+  return(APARUD)
 }
 
 

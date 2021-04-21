@@ -19,6 +19,7 @@ PAtoGE<-function(data){
     all_PA = data@anno[["gene"]])))
   #PA.matrix <- as.data.frame(t(PA.matrix))
   rownames(PA.matrix) <- unique_gene
+  return(PA.matrix)
 }
 
 
