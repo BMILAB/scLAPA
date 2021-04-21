@@ -4,7 +4,7 @@ Title: scLAPA:Learning association for single-cell transcriptomics by integratin
 Version: 0.1.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
-Imports:SIMLR,SNFtool,stats,igraph,flashClust,dplyr,propr,psych,clues,flashClust
+Imports:SIMLR,SNFtool,stats,igraph,flashClust,dplyr,propr,psych,clues,flashClust,movAPA
 Description: Learning association for single-cell transcriptomics by integrating single-cell profiling of gene expression and alternative polyadenylation
 License: What license is it under?
 Encoding: UTF-8
