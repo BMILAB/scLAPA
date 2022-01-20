@@ -33,4 +33,4 @@ library(scLAPA)
 # Application examples
 In order to facilitate user understanding, we use the provided example  [Hypothalamus](https://www.sciencedirect.com/science/article/pii/S2211124717303212?via%3Dihub) to illustrate the standard analysis work-flow of scLAPA. Please refer to the [User Guide](https://github.com/BMILAB/scLAPA/blob/main/docs/scLAPA%20user%20guide.pdf) for full details.
 ## Citation
-If you are using scLAPA, please cite: Guoli Ji, Wujing Xuan, Yibo Zhuang, Lishan Ye, Sheng Zhu, Wenbin Ye, Xi Wang, Xiaohui Wu*: Learning association for single-cell transcriptomics by integrating single-cell profiling of gene expression and alternative polyadenylation.
+If you are using scLAPA, please cite: Guoli Ji, Wujing Xuan, Yibo Zhuang, Jianan Shi, Lishan Ye, Qiwei Lian, Sheng Zhu, Wenbin Ye, Xi Wang, Xiaohui Wu*: Learning association for single-cell transcriptomics by integrating single-cell profiling of gene expression and alternative polyadenylation.
